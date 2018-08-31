@@ -1,6 +1,6 @@
 package ordenacao; // pacote
 
-public class Aluno { extends Pessoa { // classe
+public class Aluno extends Pessoa { // classe
 	
 	String sexo; // variavel
 	int matricula; //variavel
@@ -12,7 +12,7 @@ public class Aluno { extends Pessoa { // classe
 		}
 	// metodo estudar, imprime mensagem na tela pro usuário
 	public void estudar() {
-		System.out.println("Aluno estudar. ");
+		System.out.println("O Aluno estudar Java na Faculdade. ");
 	}
 	
 }
